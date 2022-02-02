@@ -1,7 +1,10 @@
 import React from 'react';
 
-const PlaceDetails = () => {
-    return <div>Place Details</div>;
+const PlaceDetails = ({ place }) => {
+    return (
+        <h1>{place.name}</h1>
+
+    )
 };
 
 export default PlaceDetails;
