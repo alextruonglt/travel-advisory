@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 
 const PlaceDetails = ({ place }) => {
+
+
     return (
         <h1>{place.name}</h1>
 
